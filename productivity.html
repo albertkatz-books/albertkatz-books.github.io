@@ -30,12 +30,19 @@
     }
     .hero-cover {
       flex: 0 0 250px;
+      text-align: center;
     }
     .hero-cover img {
       width: 100%;
       height: auto;
       border: 2px solid #d32f2f;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .hero-cover .price {
+      margin-top: 12px;
+      font-weight: bold;
+      color: #d32f2f;
+      font-size: 18px;
     }
     .hero-text {
       flex: 1;
@@ -106,6 +113,7 @@
   <div class="hero-section">
     <div class="hero-cover">
       <img src="prod-en.png" alt="English Cover" />
+      <div class="price">EN — 7.99 USDT</div>
     </div>
     <div class="hero-text">
       <h2>Select your language edition below.</h2>
